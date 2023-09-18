@@ -268,17 +268,7 @@ function BookCar() {
           <h2>Complete Reservation</h2>
           <IconX onClick={openModal} />
         </div>
-        {/* message */}
-        <div className="booking-modal__message">
-          <h4>
-            <IconInfoCircleFilled /> Upon completing this reservation enquiry,
-            you will receive:
-          </h4>
-          <p>
-            Your rental voucher to produce on arrival at the rental desk and a
-            toll-free customer support number.
-          </p>
-        </div>
+       
         {/* car info */}
         <div className="booking-modal__car-info">
           <div className="dates-div">
